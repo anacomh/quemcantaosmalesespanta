@@ -1,0 +1,130 @@
+.word--swing {
+	font-size: 11vw;
+	font-family: 'Londrina Solid', serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #0e0e19;
+	line-height: 0.8;
+	perspective: 800px;
+}
+
+.word--swing > span:first-child {
+	color: #ea757f;
+}
+
+.word--swing > span:nth-child(2) {
+	color: #7577ea;
+}
+
+.word--swing > span:nth-child(3) {
+	color: #8dea75;
+}
+
+.word--swing > span:nth-child(4) {
+	color: #e2e623;
+}
+
+.word--swing > span:nth-child(5) {
+	color: #ffc107;
+}
+
+.word--swing > span:nth-child(6) {
+	color: #6830cb;
+}
+
+.word--swing > span:nth-child(7) {
+	color: #f02424;
+}
+
+.word--swing > span:nth-child(8) {
+	color: #4cc5f4;
+}
+
+.word--swing svg {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 450px;
+	height: 510px;
+	margin: -255px 0 0 -225px;
+	pointer-events: none;
+}
+
+.word--swing svg circle {
+	fill: currentColor;
+	opacity: 0;
+	transform-origin: 50% 50%;
+}
+
+.word--swing span {
+	display: block;
+	position: relative;
+}
+
+.word--swing span span:first-of-type {
+	position: absolute;
+	font-family: 'Londrina Outline';
+}
+
+.word--swing span span:last-of-type {
+	transform-style: preserve-3d;
+}
+
+
+/* iterações aqui */
+
+/* .quem span, .males span{
+	color:#fff!important;
+} */
+
+
+.quem > span:first-child {
+	color:#ffc107!important;
+}
+
+.quem > span:nth-child(2){ 
+	color: #4cc5f4;
+}
+
+.quem > span:nth-child(3){ 
+	color: #f02424;
+}
+
+.quem > span:nth-child(4){ 
+	color: #6830cb;
+}
+
+.quem > span:nth-child(5){ 
+	color: #ea757f;
+}
+
+.males > span:first-child {
+	color:#ffc107!important;
+}
+
+.males > span:nth-child(2){ 
+	color: #4cc5f4;
+}
+
+.males > span:nth-child(3){ 
+	color: #f02424;
+}
+
+.males > span:nth-child(4){ 
+	color: #6830cb;
+}
+
+.males > span:nth-child(5){ 
+	color: #ea757f;
+}
+
+
+
+/* mailchimp */
+#mc-embedded-subscribe-form {
+    background: #1f1f21;
+}
+
+.participe{
+	background: blue;
+}
